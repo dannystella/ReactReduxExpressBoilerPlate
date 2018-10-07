@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { Provider } from 'react-redux';
 import Main from './pages/home.jsx';
+import Routes from './routes.jsx';
 import store from './store';
 
 class App extends React.Component {
@@ -22,13 +23,7 @@ class App extends React.Component {
   render () {
   	return (
     <div>
-      <HashRouter>
-        <Switch>
-        <Route path="/" render={() => (
-            <Main/>   
-          )} />  
-        </Switch>
-      </HashRouter>
+      <Routes/>
     </div>)
   }
 }
