@@ -17,15 +17,15 @@ class Main extends React.Component {
 
   render () {
   	return (
-    <div>
-      {this.props.users.message}
-    </div>)
+      <div>
+        {this.props.users.message}
+      </div>
+    )
   }
 }
 
 function mapStateToProps(state, ownProps) {
   console.log(state);
-
   return {
     users: state.users
   }

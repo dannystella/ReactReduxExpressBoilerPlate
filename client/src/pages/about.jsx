@@ -17,17 +17,17 @@ class About extends React.Component {
 
   render () {
   	return (
-    <div>
-      <p style = {{color: 'blue'}}>
-      {this.props.users.message}
-      </p>
-    </div>)
+      <div>
+        <p style = {{color: 'blue'}}>
+        {this.props.users.message}
+        </p>
+      </div>
+    )
   }
 }
 
 function mapStateToProps(state, ownProps) {
   console.log(state);
-
   return {
     users: state.users
   }

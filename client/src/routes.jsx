@@ -23,21 +23,22 @@ class Routes extends React.Component {
 
   render () {
   	return (
-    <div>
-      <HashRouter>
-        <div>
-        <Navbar/>
-        <Switch>
-        <Route path="/about" render={() => (
-            <About/>   
-          )} />  
-        <Route path="/" render={() => (
-            <Main/>   
-          )} />  
-        </Switch>
-        </div>
-      </HashRouter>
-    </div>)
+      <div>
+        <HashRouter>
+          <div>
+          <Navbar/>
+          <Switch>
+          <Route path="/about" render={() => (
+              <About/>   
+            )} />  
+          <Route path="/" render={() => (
+              <Main/>   
+            )} />  
+          </Switch>
+          </div>
+        </HashRouter>
+      </div>
+    )
   }
 }
 

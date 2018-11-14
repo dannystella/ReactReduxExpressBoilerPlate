@@ -22,9 +22,10 @@ class App extends React.Component {
 
   render () {
   	return (
-    <div>
-      <Routes/>
-    </div>)
+      <div>
+        <Routes/>
+      </div>
+    )
   }
 }
 
