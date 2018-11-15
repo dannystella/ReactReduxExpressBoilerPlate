@@ -16,7 +16,7 @@ class Main extends React.Component {
   }
 
   render () {
-  	return (
+  	return ( 
       <div>
         {this.props.users.message}
       </div>
